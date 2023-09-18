@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Activitydatashow</string>
+    <string name="string">Enter String</string>
+    <string name="enteryourstring">Enter your String</string>
+    <string name="enteryourInteger">Enter Your Integer</string>
+    <string name="integer">Integer</string>
+    <string name="String">String</string>
+    <string name="Float">Float</string>
+    <string name="enteryourfloat">Enter Your Float</string>
+    <string name="Double">Double</string>
+    <string name="enteryourDouble">Double</string>
+    <string name="enteryourdouble">Enter Your Double</string>
+    <string name="Boolean">Boolean</string>
+    <string name="enteryourBoolean">Enter Your Boolean</string>
+    <string name="Save">Save</string>
+</resources>

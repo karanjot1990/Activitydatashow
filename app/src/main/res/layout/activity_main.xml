@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/String"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enteryourstring"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/integer"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enteryourInteger"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvFloat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Float"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etFloat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enteryourfloat"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvDouble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Double"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etDouble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enteryourdouble"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvBoolean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Boolean"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/etBoolean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enteryourBoolean"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Save"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
