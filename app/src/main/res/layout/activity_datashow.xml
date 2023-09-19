@@ -16,7 +16,7 @@
       android:layout_gravity="center"/>
 
     <TextView
-        android:id="@+id/tvGetInt"
+        android:id="@+id/tvGetInteger"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/integer"
@@ -39,13 +39,7 @@
         android:textSize="20sp"
         android:layout_gravity="center"/>
 
-    <TextView
-        android:id="@+id/tvGetBoolean"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Boolean"
-        android:textSize="20sp"
-        android:layout_gravity="center"/>
+
 
 
 </LinearLayout>

@@ -31,6 +31,7 @@
     <EditText
         android:id="@+id/etInt"
         android:layout_width="wrap_content"
+        android:inputType="number"
         android:layout_height="wrap_content"
         android:hint="@string/enteryourInteger"
         android:textSize="20sp"/>
@@ -46,6 +47,7 @@
         android:id="@+id/etFloat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
         android:hint="@string/enteryourfloat"
         android:textSize="20sp"/>
 
@@ -60,6 +62,7 @@
         android:id="@+id/etDouble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
         android:hint="@string/enteryourdouble"
         android:textSize="20sp" />
 

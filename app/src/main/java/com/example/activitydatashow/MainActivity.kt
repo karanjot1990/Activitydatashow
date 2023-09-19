@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         etInt = findViewById(R.id.etInt)
         etFloat = findViewById(R.id.etFloat)
         etDouble = findViewById(R.id.etDouble)
-        etBoolean = findViewById(R.id.etBoolean)
+       // etBoolean = findViewById(R.id.etBoolean)
         btnSave = findViewById(R.id.btnSave)
 
         btnSave.setOnClickListener {
@@ -35,15 +35,13 @@ class MainActivity : AppCompatActivity() {
                 etFloat.error = "Enter Your Float "
             } else if (etDouble.text.isEmpty()) {
                 etDouble.error = "Enter Your Double"
-            } else if (etBoolean.text.isEmpty()) {
-                etBoolean.error = "Enter Your Boolean"
             }else{
                 var intent=Intent(this,Datashow::class.java)
                 intent.putExtra("String",etString.text.toString())
                 intent.putExtra("Integer",etInt.text.toString().toInt())
                 intent.putExtra("Float",etFloat.text.toString().toFloat())
                 intent.putExtra("Double",etDouble.text.toString().toDouble())
-                intent.putExtra("Boolean",etBoolean.text.toString().toBoolean())
+               // intent.putExtra("Boolean",etBoolean.text.toString().toBoolean())
                 startActivity(intent)
 
             }
